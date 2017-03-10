@@ -1,0 +1,27 @@
+{
+  "name": "training-home-create-web-site",
+  "version": "1.0.0",
+  "description": "new verstka",
+  "main": "index.js",
+  "dependencies": {
+  },
+  "devDependencies": {
+   "autoprefixer": "^6.5.1",
+    "browser-sync": "^2.17.5",
+    "gulp": "^3.9.1",
+    "gulp-add-src": "^0.2.0",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-cssnano": "^2.1.2",
+    "gulp-imagemin": "^3.0.3",
+    "gulp-less": "^3.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sourcemaps": "^2.2.0",
+    "gulp-uglify": "^2.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "tony",
+  "license": "ISC"
+}

@@ -1,0 +1,24 @@
+{
+  "name": "training-home-create-web-site",
+  "description": "new verstka",
+  "main": "index.js",
+  "authors": [
+    "tony"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "src/bower",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "masonry": "^4.1.1",
+    "bootstrap": "^3.3.7",
+    "toastr": "^2.1.2",
+    "components-font-awesome": "^4.7.0"
+  }
+}

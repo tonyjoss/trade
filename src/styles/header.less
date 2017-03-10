@@ -1,0 +1,167 @@
+body {
+  box-sizing: border-box;
+  li > a {
+    text-decoration: none;
+  }
+}
+//**main setting**//
+.wrapper {
+  //position: relative;
+}
+.container {
+  max-width: 1146px;
+  width: 100%;
+}
+.header__container {
+  //margin-bottom: -66px;
+  //z-index: 1;
+}
+//wrapper img to top on navbar
+.navbarHeader {
+  background: none;
+  border: none;
+  //margin-top: 14px;
+  position: absolute;
+  top: 14px;
+  width: 100%;
+  max-width: 1900px;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+}
+//**END main setting**//
+
+
+
+//**nav menu setting**//
+.nav__Menu {
+  position: relative;
+  li {
+    a {
+      .navMenuText()!important;
+      &:hover {
+        color: #d1ebfc!important;
+      }
+      padding: 12px 17px;
+    }
+  }
+  .sign__up {
+    border: 2px solid #FFFFFF;
+    border-radius: 10px;
+    &:hover {
+      //background: #fa693c;
+      border: 2px solid #fa693c;
+    }
+  }
+}
+.sign__upClick:hover {
+  background: linear-gradient(to top,#fa693c, #f4440d );
+  border-radius: 10px;
+}
+//.sign__upClick > .sign__up:hover {
+//  background: #fa693c;
+//  border: 2px solid #fa693c;
+//}
+.leftMenu {
+  margin-right: 65px;
+}
+.logo {
+  padding-left: 0;
+}
+.navBarRightContainer {
+  position: relative;
+  .rigthMenu:after {
+    content: '';
+    position: absolute;
+    display: inline-block;
+    width: 2px;
+    height: 37px;
+    background: #FFFFFF;
+    top: 6px;
+    left: 0;
+  }
+}
+//**END nav menu setting**//
+
+
+//**containerComercial setting**//
+.containerComercial__business {
+  width: 100%;
+  max-width: 1900px;
+  padding: 0;
+}
+
+.imgComercial > img {
+  width: 100%;
+}
+.img__container {
+  background-image: url("../images/background.png");
+  background-repeat: no-repeat;
+}
+.head__info {
+  margin: 115px 0 100px 0;
+  padding: 0;
+}
+.img__info {
+  img {
+    width: 100%;
+  }
+}
+.mainText__header {
+  width: 100%;
+  max-width: 344px;
+}
+.h1Title {
+  font-size: 40px;
+  font-family: 'LatoBold';
+  color: #FFFFFF;
+}
+.imgStart_businessOnlyMobile {
+  display: none;
+}
+.infoHeaderText {
+  font-size: 18px;
+  font-family: 'LatoRegular';
+  color: darken(#FFFFFF, 10%);
+  margin: 40px 0 30px;
+}
+.registerText {
+  font-family: 'LatoBold';
+  font-size: 24px;
+  color: #FFFFFF;
+}
+.textHeader__Column,
+.imgHeader__Column {
+  padding: 0;
+}
+.startBtn {
+  .startBTN();
+  &:active {
+    background: darken(#fa693c, 20%);
+    box-shadow: 1px 3px 1px lighten(#80361f, 10%);
+  }
+  &:hover {
+    background:linear-gradient(to top,#fa693c, #f4440d );
+    //-webkit-transform: scale(1.1);
+    //-ms-transform: scale(1.1);
+    //transform: scale(1.1);
+  }
+}
+.getStartBtn {
+  .getStartBtn();
+  &:active {
+    background: darken(#2892d7, 20%);
+    box-shadow: 1px 3px 1px lighten(#124160, 10%);
+  }
+  &:hover {
+
+    background:linear-gradient(to top,#2892d7, #0a77bd);
+    //-webkit-transform: scale(1.1);
+    //-ms-transform: scale(1.1);
+    //transform: scale(1.1);
+  }
+}
+.btnHeader {
+  margin-top: 23px;
+}
